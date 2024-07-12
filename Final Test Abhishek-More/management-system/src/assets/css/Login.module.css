@@ -1,0 +1,172 @@
+.login-section {
+  padding: 60px 0;
+  background: #fff;
+}
+
+.login-section .login-form {
+  background: #fff;
+  padding: 80px 60px;
+  box-shadow: 0 10px 16.83px 0.17px #1198604b;
+  border-radius: 20px;
+  text-align: left;
+}
+
+.login-form .form-title {
+  margin-top: 0px;
+  margin-bottom: 33px;
+  text-align: center;
+  font-family: auto;
+  font-weight: 600;
+  /* color: #269811; */
+}
+
+.login-row {
+  display: flex;
+  justify-content: center;
+}
+
+.login-section .error {
+  color: red;
+  min-height: 35px;
+}
+
+/* css for eye icon for password */
+.input-wrapper {
+  position: relative;
+}
+
+.button-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.password-form-group {
+  position: relative;
+}
+
+.password-form-control {
+  padding-right: 2.5rem;
+}
+
+.eye-icon {
+  position: absolute;
+  top: 50%;
+  right: 10px;
+  transform: translateY(-50%);
+  cursor: pointer;
+  z-index: 2;
+}
+
+.login-data {
+  margin-top: 40px;
+}
+
+.login-row {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap-reverse;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.image-outer {
+  padding: 20px;
+}
+
+.image-outer img {
+  width: 100%;
+}
+
+.login-section .form-button {
+  text-align: center;
+}
+
+.login-submit-btn,
+.login-reset-btn {
+  appearance: none;
+  backface-visibility: hidden;
+  background-color: #0084ff;
+  border-radius: 10px;
+  border-style: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter, -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
+    sans-serif;
+  font-size: 15px;
+  font-weight: 500;
+  height: 50px;
+  letter-spacing: normal;
+  line-height: 1.5;
+  outline: none;
+  overflow: hidden;
+  padding: 14px 30px;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all 0.3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.login-reset-btn {
+  background: rgb(110, 110, 110);
+}
+
+.login-submit-btn:hover {
+  background-color: #1366d6;
+  box-shadow: rgba(0, 0, 0, 0.05) 0 5px 30px, rgba(0, 0, 0, 0.05) 0 1px 4px;
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: 0.35s;
+}
+
+.login-reset-btn:hover {
+  background-color: rgb(66, 66, 66);
+  box-shadow: rgba(0, 0, 0, 0.05) 0 5px 30px, rgba(0, 0, 0, 0.05) 0 1px 4px;
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: 0.35s;
+}
+
+.login-submit-btn:hover:after,
+.login-reset-btn:hover:after {
+  opacity: 0.5;
+}
+
+.login-submit-btn:active,
+.login-reset-btn:active {
+  box-shadow: rgba(0, 0, 0, 0.1) 0 3px 6px 0, rgba(0, 0, 0, 0.1) 0 0 10px 0,
+  rgba(0, 0, 0, 0.1) 0 1px 4px -1px;
+  transform: translateY(2px);
+  transition-duration: 0.35s;
+}
+
+.login-submit-btn:active:after,
+.login-reset-btn:active:after {
+  opacity: 1;
+}
+
+@media (min-width: 768px) {
+  .login-submit-btn,
+  .login-reset-btn {
+    padding: 14px 22px;
+    min-width: 120px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .login-submit-btn,
+  .login-reset-btn {
+    padding: 14px 22px;
+    min-width: 176px;
+  }
+}

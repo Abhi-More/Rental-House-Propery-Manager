@@ -1,0 +1,209 @@
+.add-edit-section {
+  margin: 30px 0 60px 0;
+}
+
+.row {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.image-outer {
+  padding: 20px;
+}
+
+.image-outer img {
+  width: 100%;
+}
+
+.spinner-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.form-row {
+  display: flex;
+  justify-content: space-around;
+}
+
+.intro-col {
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.button-col {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 10px 0;
+}
+
+.form {
+  padding: 50px 40px;
+  background: #f3f9ff;
+  border: 1px solid #0084ff71;
+  box-shadow: 0 0px 10px 1px #0084ff50;
+  border-radius: 10px;
+}
+
+.error {
+  color: red;
+  min-height: 25px;
+}
+
+.button-wrapper button {
+  padding: 14px 20px;
+  width: 150px;
+  appearance: none;
+  backface-visibility: hidden;
+  border-radius: 10px;
+  border-style: none;
+  box-shadow: none;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-block;
+  font-family: Inter, -apple-system, system-ui, "Segoe UI", Helvetica, Arial,
+    sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  height: 50px;
+  letter-spacing: normal;
+  line-height: 1.5;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  transform: translate3d(0, 0, 0);
+  transition: all 0.3s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: top;
+  white-space: nowrap;
+}
+
+.radio-group {
+  display: flex;
+  justify-content: space-around;
+}
+
+.button-wrapper button[type="submit"] {
+  background-color: #0084ff;
+}
+
+.button-wrapper button[type="reset"] {
+  background-color: grey;
+}
+
+.button-wrapper button[type="submit"]:hover {
+  background-color: #1366d6;
+  box-shadow: rgba(0, 0, 0, 0.05) 0 5px 30px, rgba(0, 0, 0, 0.05) 0 1px 4px;
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: 0.35s;
+}
+
+.button-wrapper button[type="reset"]:hover {
+  background-color: rgb(66, 66, 66);
+  box-shadow: rgba(0, 0, 0, 0.05) 0 5px 30px, rgba(0, 0, 0, 0.05) 0 1px 4px;
+  opacity: 1;
+  transform: translateY(0);
+  transition-duration: 0.35s;
+}
+
+.button-wrapper button:after {
+  opacity: 0.5;
+}
+
+.button-wrapper button:active {
+  box-shadow: rgba(0, 0, 0, 0.1) 0 3px 6px 0, rgba(0, 0, 0, 0.1) 0 0 10px 0,
+    rgba(0, 0, 0, 0.1) 0 1px 4px -1px;
+  transform: translateY(2px);
+  transition-duration: 0.35s;
+}
+
+.button-wrapper button:after {
+  opacity: 1;
+}
+
+.page-title {
+  font-family: emoji;
+  font-size: 40px;
+  text-align: center;
+  font-weight: 600;
+  color: #00005e;
+  margin-bottom: 10px;
+}
+
+.sub-title {
+  line-height: 20px;
+  color: rgb(132, 132, 132);
+  font-size: 18px;
+  padding: 0 40px;
+  text-align: center;
+}
+
+.form-title h1 {
+  font-family: emoji;
+  font-size: xx-large;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+
+.form-title h3 {
+  font-size: 20px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+input[type="radio"] {
+  width: 15px;
+  height: 15px;
+  margin: 10px;
+  border: 1px solid #ccc;
+  border-radius: 50%;
+  cursor: pointer;
+}
+
+label {
+  color: #000000d3;
+  font-weight: 500;
+  margin-bottom: 2px;
+}
+
+.signup-content {
+  padding: 80px 0;
+}
+
+.signup-form {
+  margin: 0 80px;
+}
+
+select {
+  appearance: auto;
+  -webkit-appearance: auto;
+  -moz-appearance: auto;
+  padding: 4px 8px;
+  margin: 4px;
+  margin-left: 20px;
+  border: 1px solid #ccc;
+  width: 200px;
+  font-size: 16px;
+  background-color: #fff;
+}
+
+select:hover {
+  border-color: #999;
+}
+
+select:focus {
+  border-color: #333;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+}

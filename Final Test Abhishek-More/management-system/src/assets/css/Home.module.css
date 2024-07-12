@@ -1,0 +1,135 @@
+.home-section {
+  margin: 100px 0;
+}
+
+.image-outer img {
+  width: 100%;
+}
+
+.title-col {
+  text-align: center;
+  padding-top: 60px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.page-title h4 {
+  font-family: emoji;
+  color: grey;
+}
+
+.page-title h1 {
+  font-family: emoji;
+  font-weight: 600 !important;
+  font-size: xxx-large !important;
+}
+
+.page-title p {
+  line-height: 20px;
+  color: rgb(132, 132, 132);
+  font-size: 20px;
+  padding: 0 40px;
+}
+
+.image-outer {
+  padding-top: 20px;
+}
+
+.button-section {
+  width: 100%;
+  margin-top: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.see-button,
+.add-button {
+  outline: none;
+  border: none;
+  color: #fff;
+  font-weight: 500;
+  border-radius: 10px;
+}
+
+.see-button {
+  background-image: linear-gradient(
+    to right,
+    #00ce8d 0%,
+    #189d9d 51%,
+    #00ce8d 100%
+  );
+  margin: 10px;
+  padding: 12px 35px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  transition: transform 0.15s, background-position 0.35s;
+}
+
+.see-button:hover {
+  background-position: right center;
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+.add-button {
+  background-image: linear-gradient(
+    to right,
+    #0099ff 0%,
+    #0072ff 51%,
+    #0099ff 100%
+  );
+  margin: 10px;
+  padding: 12px 35px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: block;
+  transition: transform 0.15s, background-position 0.35s;
+}
+
+.add-button:hover {
+  background-position: right center;
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+.feature-section {
+  margin: 150px 0 0 0;
+}
+
+.feature-section h2 {
+  text-align: center;
+  font-family: emoji;
+  font-weight: 600 !important;
+  font-size: xx-large !important;
+}
+
+.feature-col {
+  padding: 20px 40px;
+}
+
+.feature-section ul {
+  margin-top: 20px;
+}
+
+.feature-section ul li {
+  line-height: 25px;
+  color: rgb(95, 95, 95);
+  font-size: 18px;
+}
+
+.feature-section img {
+  border-radius: 20px;
+  box-shadow: 0 10px 16px 4px rgba(128, 128, 128, 0.747);
+}
+
+.feature-section .image-outer {
+  padding: 20px;
+}

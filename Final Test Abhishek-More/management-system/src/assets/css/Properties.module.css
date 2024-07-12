@@ -1,0 +1,110 @@
+.manage-section {
+  padding: 20px 0 40px 0;
+  background-image: url(../images/house-bg2.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center center;
+}
+
+.title-section {
+  text-align: center;
+  margin: 40px 0;
+}
+
+.title-section .title {
+  font-size: 48px;
+  font-weight: 700;
+  font-family: initial;
+  color: #fff;
+}
+
+.title-section .sub-text {
+  line-height: 20px;
+  color: rgb(235, 235, 235);
+  font-size: 18px;
+  padding: 0 40px;
+  text-align: center;
+}
+
+.action-col {
+  width: auto;
+  height: auto;
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.id-col {
+  padding-left: 25px !important;
+  box-sizing: border-box !important;
+}
+
+.add-btn {
+  background-image: linear-gradient(
+    to right,
+    #00b47b 0%,
+    #189d9d 51%,
+    #00b87d 100%
+  );
+  padding: 12px 35px;
+  text-align: center;
+  transition: 0.5s;
+  background-size: 200% auto;
+  box-shadow: 0 0 20px #eee;
+  border-radius: 10px;
+  display: flex;
+  transition: transform 0.15s, background-position 0.35s;
+  outline: none;
+  border: none;
+  color: #fff;
+  font-weight: 700;
+  border-radius: 10px;
+}
+
+.add-btn:hover {
+  background-position: right center;
+  text-decoration: none;
+  transform: translateY(-2px);
+}
+
+.add-section {
+  margin-top: 10px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: end;
+}
+
+.table {
+  max-height: 70vh;
+  overflow: auto;
+  padding: 40px !important;
+  box-sizing: border-box;
+  border: 1px solid rgb(233, 233, 233);
+  text-align: left;
+  background-color: #ffffff80 !important;
+}
+
+tr,
+th,
+td {
+  background-color: #ffffffa4 !important;
+  font-weight: 500;
+}
+
+th {
+  font-weight: 700;
+}
+
+.center-col {
+  text-align: center;
+}
+
+.spinner-wrapper {
+  text-align: center;
+}
+
+@media screen and (max-width: 900px) {
+  .table {
+    padding: 0 !important;
+  }
+}

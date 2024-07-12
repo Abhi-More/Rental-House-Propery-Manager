@@ -1,0 +1,176 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "firstName": "Abhishek",
+      "lastName": "More",
+      "email": "abhishek@gmail.com",
+      "password": "Password@123"
+    },
+    {
+      "id": 2,
+      "firstName": "Admin",
+      "lastName": "Admin",
+      "email": "admin@admin.com",
+      "password": "Admin@123"
+    },
+    {
+      "id": 3,
+      "firstName": "Rohit",
+      "lastName": "Sharma",
+      "email": "rohit@gmail.com",
+      "password": "Password@123"
+    }
+  ],
+  "property-types": [
+    "Apartment",
+    "Bungalow",
+    "Row House"
+  ],
+  "properties": [
+    {
+      "id": 1,
+      "propertyType": "Row House",
+      "propertyName": "Green Heights",
+      "bedrooms": "3",
+      "bathrooms": "2",
+      "furnishingType": "Unfurnished",
+      "address": "Pune, Maharashtra",
+      "contact": "9876543210",
+      "rent": "2500.50",
+      "details": "Spacious apartment with modern amenities"
+    },
+    {
+      "id": 2,
+      "propertyType": "Bungalow",
+      "propertyName": "Golden Villa",
+      "bedrooms": "4",
+      "bathrooms": "3",
+      "furnishingType": "Fully-furnished",
+      "address": "Mumbai, Maharashtra",
+      "contact": "9876543211",
+      "rent": "75000",
+      "details": "Luxurious bungalow with garden and pool"
+    },
+    {
+      "id": 3,
+      "propertyType": "Row House",
+      "propertyName": "Silver Oak",
+      "bedrooms": "3",
+      "bathrooms": "2",
+      "furnishingType": "Unfurnished",
+      "address": "Nagpur, Maharashtra",
+      "contact": "9876543212",
+      "rent": "30000",
+      "details": "Compact row House in a serene neighborhood"
+    },
+    {
+      "id": 4,
+      "propertyType": "Apartment",
+      "propertyName": "Skyline View Park",
+      "bedrooms": "2",
+      "bathrooms": "2",
+      "furnishingType": "Fully-furnished",
+      "address": "Pune, Maharashtra",
+      "contact": "9876543213",
+      "rent": "18000",
+      "details": "Cozy apartment with a beautiful city view"
+    },
+    {
+      "id": 5,
+      "propertyType": "Apartment",
+      "propertyName": "Lakefront Residency",
+      "bedrooms": "3",
+      "bathrooms": "2",
+      "furnishingType": "Fully-furnished",
+      "address": "Nashik, Maharashtra",
+      "contact": "9876543214",
+      "rent": "35000",
+      "details": "Modern apartment overlooking a lake"
+    },
+    {
+      "id": 6,
+      "propertyType": "Row House",
+      "propertyName": "Woodland Retreat",
+      "bedrooms": "2",
+      "bathrooms": "2",
+      "furnishingType": "Semi-furnished",
+      "address": "Thane, Maharashtra",
+      "contact": "9876543215",
+      "rent": "28000",
+      "details": "Charming row House surrounded by greenery"
+    },
+    {
+      "id": 7,
+      "propertyType": "Bungalow",
+      "propertyName": "Sunrise Villa",
+      "bedrooms": "4",
+      "bathrooms": "3",
+      "furnishingType": "Fully-furnished",
+      "address": "Mumbai, Maharashtra",
+      "contact": "9876543216",
+      "rent": "80000",
+      "details": "Spacious bungalow with sunrise views"
+    },
+    {
+      "id": 8,
+      "propertyType": "Apartment",
+      "propertyName": "Hilltop Haven",
+      "bedrooms": "2",
+      "bathrooms": "2",
+      "furnishingType": "Unfurnished",
+      "address": "Lonavala, Maharashtra",
+      "contact": "9876543217",
+      "rent": "20000",
+      "details": "Peaceful apartment with hilltop views"
+    },
+    {
+      "id": 9,
+      "propertyType": "Bungalow",
+      "propertyName": "Abhishek Bungalow",
+      "bedrooms": "2",
+      "bathrooms": "2",
+      "furnishingType": "Semi-furnished",
+      "address": "Jatra Hotel Chauk, Amrutdham, Nashik-422003",
+      "contact": "9657884175",
+      "rent": "0.2154",
+      "details": "Abhishek More Testing"
+    },
+    {
+      "id": 10,
+      "propertyType": "Apartment",
+      "propertyName": "Ekta Greenvaleee",
+      "bedrooms": "2",
+      "bathrooms": "2",
+      "furnishingType": "Semi-furnished",
+      "address": "Pathardi Phata, Nashik",
+      "contact": "8755555555",
+      "rent": "58777",
+      "details": "fregthg"
+    },
+    {
+      "id": 12,
+      "propertyType": "Row House",
+      "propertyName": "AAAAAAAAAA",
+      "bedrooms": "4",
+      "bathrooms": "3",
+      "furnishingType": "Semi-furnished",
+      "address": "AAAAAAAAA",
+      "contact": "1010101010",
+      "rent": "10000",
+      "details": "AAAAAAAAA"
+    },
+    {
+      "id": 13,
+      "propertyType": "Apartment",
+      "propertyName": "Green Valley",
+      "bedrooms": "4",
+      "bathrooms": "3",
+      "furnishingType": "Fully-furnished",
+      "address": "Triambakeshwar, nashik",
+      "contact": "9657884175",
+      "rent": "12000.00",
+      "details": "Just Awesome  look"
+    }
+  ]
+}
